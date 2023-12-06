@@ -1,0 +1,266 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: "Inter", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+:root {
+	--blue-color: #18216D;
+	--green-color: #00ECD0;
+	--white-color: white;
+	min-width: 400px;
+}
+
+body {
+    margin: 40px 16px;
+}
+
+.alwaysNotDispleyed {
+	display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+	.notDispleyed {
+		display: none;
+	}
+	.notDispleyedButton {
+		background-image: none; 
+		background-color: transparent;
+		border: 0;
+	}
+
+	header {
+		display: flex;
+	}
+	
+	.justHeader {
+		justify-content: space-between;
+	}
+	
+	.section1 {
+		margin-top: 40px;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+		margin-bottom: 20px;
+		color: var(--blue-color);
+		font-weight: 600;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	
+	p {
+		font-size: 1rem;
+		margin-bottom: 33px;
+		text-align: center;
+		color: var(--blue-color);
+		font-weight: 400;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	
+	.button1 {
+		width: 140px;
+		height: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+		font-size: 1rem;
+		font-weight: 400;
+		color: var(--blue-color);
+		background-color: var(--green-color);
+		border: 0;
+		border-radius: 6px;
+		margin-bottom: 40px;
+	}
+	
+	.bgimage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.sectionh2 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	
+	h3 {
+		font-size: 1.8rem;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: var(--blue-color);
+	}
+	
+	.section2 {
+		margin-left: 30px;
+	}
+	
+	.p2 {
+		text-align: left;
+		margin-left: 0px;
+		opacity: 0.6;
+	}
+}
+
+@media screen and (min-width: 1000px) {	
+
+	.maxSize {
+		display: flex;
+		margin-top: 100px;
+	}
+
+	.maxNotDisplayButton {
+		background-image: none; 
+		background-color: transparent;
+		border: 0;
+	}
+	.maxDisplayButton {
+		background-image: none; 
+		background-color: transparent;
+		border: 0;
+		color: var(--white-color);
+		background-color: var(--blue-color);
+		width: 160px;
+		height: 50px;
+		border-radius: 6px;
+	}
+
+	.marginDiv {
+		margin-right: 300px;
+		margin-top: 18px;
+	}
+
+	.notDispleyedButton {
+		display: none;
+		height: 50px;
+	}
+
+	.name {
+		margin-left: 100px;
+	}
+
+		header {
+		display: flex;
+	}
+
+	.justHeader {
+		justify-content: space-between;
+	}
+
+	.section1 {
+		margin-top: 40px;
+		margin-left: 215px;
+	}
+
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+		margin-bottom: 20px;
+		color: var(--blue-color);
+		font-weight: 600;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	p {
+		font-size: 1rem;
+		margin-bottom: 33px;
+		text-align: center;
+		color: var(--blue-color);
+		font-weight: 400;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.button1 {
+		width: 140px;
+		height: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+		font-size: 1rem;
+		font-weight: 400;
+		color: var(--blue-color);
+		background-color: var(--green-color);
+		border: 0;
+		border-radius: 6px;
+		margin-bottom: 40px;
+	}
+
+	.bgimage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-right: 215px;
+		margin-left: 50px;
+	}
+
+	.sectionh2 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: var(--blue-color);
+	}
+
+	.section2 {
+		margin-left: 30px;
+	}
+
+	.p2 {
+		text-align: left;
+		margin-left: 0px;
+		opacity: 0.6;
+	}
+}
