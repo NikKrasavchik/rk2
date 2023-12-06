@@ -160,6 +160,7 @@ body {
 		background-image: none; 
 		background-color: transparent;
 		border: 0;
+		margin-right: 30px;
 	}
 	.maxDisplayButton {
 		background-image: none; 
@@ -173,7 +174,7 @@ body {
 	}
 
 	.marginDiv {
-		margin-right: 300px;
+		margin-right: 250px;
 		margin-top: 18px;
 	}
 
@@ -196,35 +197,28 @@ body {
 
 	.section1 {
 		margin-top: 40px;
-		margin-left: 215px;
+		margin-left: 150px;
 	}
 
 	h2 {
-		font-size: 2rem;
-		text-align: center;
+		font-size: 3.8rem;
+		text-align: left;
 		margin-bottom: 20px;
 		color: var(--blue-color);
 		font-weight: 600;
-		margin-left: 40px;
-		margin-right: 40px;
 	}
 
 	p {
-		font-size: 1rem;
+		font-size: 1.3rem;
 		margin-bottom: 33px;
-		text-align: center;
+		text-align: left;
 		color: var(--blue-color);
 		font-weight: 400;
-		margin-left: 40px;
-		margin-right: 40px;
 	}
 
 	.button1 {
-		width: 140px;
-		height: 40px;
-		margin-left: auto;
-		margin-right: auto;
-		justify-content: center;
+		width: 180px;
+		height: 60px;
 		font-size: 1rem;
 		font-weight: 400;
 		color: var(--blue-color);
@@ -238,13 +232,14 @@ body {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-right: 215px;
+		margin-right: 150px;
 		margin-left: 50px;
 	}
 
 	.sectionh2 {
 		margin-top: 40px;
 		margin-bottom: 40px;
+		text-align: center;
 	}
 
 	h3 {
@@ -256,6 +251,9 @@ body {
 
 	.section2 {
 		margin-left: 30px;
+		display: flex;
+		margin-left: 300px;
+		margin-right: 300px;
 	}
 
 	.p2 {
