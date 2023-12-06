@@ -50,7 +50,7 @@ table {
 	--blue-color: #18216D;
 	--green-color: #00ECD0;
 	--white-color: white;
-	min-width: 400px;
+	min-width: 375px;
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
 
 	.notDispleyed {
 		display: none;
@@ -90,7 +90,7 @@ body {
 		text-align: center;
 		margin-bottom: 20px;
 		color: var(--blue-color);
-		font-weight: 600;
+		font-weight: 500;
 		margin-left: 40px;
 		margin-right: 40px;
 	}
@@ -100,7 +100,7 @@ body {
 		margin-bottom: 33px;
 		text-align: center;
 		color: var(--blue-color);
-		font-weight: 400;
+		font-weight: 250;
 		margin-left: 40px;
 		margin-right: 40px;
 	}
@@ -112,7 +112,7 @@ body {
 		margin-right: auto;
 		justify-content: center;
 		font-size: 1rem;
-		font-weight: 400;
+		font-weight: 250;
 		color: var(--blue-color);
 		background-color: var(--green-color);
 		border: 0;
@@ -149,7 +149,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 1000px) {	
+@media screen and (min-width: 1280px) {	
 
 	.maxSize {
 		display: flex;
@@ -160,7 +160,8 @@ body {
 		background-image: none; 
 		background-color: transparent;
 		border: 0;
-		margin-right: 30px;
+		margin-right: 50px;
+		font-size: 1rem;
 	}
 	.maxDisplayButton {
 		background-image: none; 
@@ -171,6 +172,7 @@ body {
 		width: 160px;
 		height: 50px;
 		border-radius: 6px;
+		font-size: 1rem;
 	}
 
 	.marginDiv {
@@ -205,7 +207,7 @@ body {
 		text-align: left;
 		margin-bottom: 20px;
 		color: var(--blue-color);
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	p {
@@ -213,14 +215,14 @@ body {
 		margin-bottom: 33px;
 		text-align: left;
 		color: var(--blue-color);
-		font-weight: 400;
+		font-weight: 250;
 	}
 
 	.button1 {
 		width: 180px;
 		height: 60px;
 		font-size: 1rem;
-		font-weight: 400;
+		font-weight: 250;
 		color: var(--blue-color);
 		background-color: var(--green-color);
 		border: 0;
@@ -250,10 +252,10 @@ body {
 	}
 
 	.section2 {
-		margin-left: 30px;
+		width: 500px;
 		display: flex;
-		margin-left: 300px;
-		margin-right: 300px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.p2 {
